@@ -49,10 +49,16 @@ export default ({ onNew, onOpen, onSave, onDelete }) => {
                 <a className="navbar-item" onClick={() => onNew()}>
                   New
                 </a>
-                <a className="navbar-item" onClick={() => setIsOpenModalActive(true)}>
+                <a
+                  className="navbar-item"
+                  onClick={() => setIsOpenModalActive(true)}
+                >
                   Open
                 </a>
-                <a className="navbar-item" onClick={() => setIsSaveModalActive(true)}>
+                <a
+                  className="navbar-item"
+                  onClick={() => setIsSaveModalActive(true)}
+                >
                   Save
                 </a>
               </div>

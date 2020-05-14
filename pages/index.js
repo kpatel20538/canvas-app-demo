@@ -59,7 +59,7 @@ const Home = () => {
           />
         </div>
         <input
-        className="input"
+          className="input"
           type="color"
           value={color}
           onChange={(e) => setColor(e.target.value)}
